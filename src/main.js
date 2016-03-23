@@ -100,7 +100,6 @@ var script = {
     '/google - search in google\n'+
     '/about - about bot',
   menu: [
-    ['/about'],
     ['/start'],
     ['/yemek'],
   ],
@@ -109,12 +108,6 @@ var script = {
       name: 'start',
       action: register,
       typing: true
-    },
-    "/about": {
-      name: 'about',
-      reply: '❓ This is telegram bot demo.\n' +
-        'When you enter /google, you will be prompted for search query.' +
-        'Than return 1st search result from google'
     },
     "/yemeklistegir|g": {
       name: 'yemeklistegir',
