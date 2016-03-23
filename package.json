@@ -9,13 +9,13 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "babel-polyfill": "^6.7.4",
     "babel-preset-es2016-node5": "^1.1.2",
+    "babel-register": "^6.7.2",
     "es6-promisify": "^3.0.0",
+    "mongoose": "^4.4.9",
     "request": "^2.69.0",
     "telegram-scenario-bot": "^0.1.4",
     "underscore": "^1.8.3"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.6.5"
   }
 }
