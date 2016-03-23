@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "İsmail Demirbilek <ce.demirbilek@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.7.4",
@@ -17,5 +17,11 @@
     "request": "^2.69.0",
     "telegram-scenario-bot": "^0.1.4",
     "underscore": "^1.8.3"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "tmy",
+    "telegram",
+    "bot"
+  ]
 }
